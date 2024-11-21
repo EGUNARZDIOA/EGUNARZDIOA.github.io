@@ -1,0 +1,214 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Mise en page */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* En-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Section Présentation */
+#presentation {
+    color: #333;
+    background-color: white;
+
+}
+
+#presentation p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Section Projets */
+#projets {
+    background-color: #fff;
+}
+
+.projet {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projet h3 {
+    color: #333;
+}
+
+/* Section Contact */
+#contact {
+    background-color: #f4f4f4;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styles Responsives */
+@media (max-width: 768px) {
+    /* Navigation */
+    nav ul {
+        display: flex;
+        flex-wrap: wrap; /* Permet aux éléments de se réorganiser */
+        gap: 20px;
+        justify-content: center; /* Centrer les éléments */
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Conteneur principal */
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+
+    /* Projet */
+    .projet {
+        margin: 10px 0;
+    }
+
+    /* Formulaire */
+    form {
+        width: 100%;
+    }
+
+    form input, form textarea, form button {
+        width: 100%;
+    }
+
+    /* Style des boîtes texte */
+    .texte {
+        border: solid 1px #333;
+        border-radius: 8px;
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        background-color: #f4f4f4;
+    }
+
+    /* Image de présentation */
+    #presentation img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+
+
+.texte {
+    border: solid 1px #333;
+    border-radius: 8px;
+    width: 60%;
+    padding: 1em;
+    margin: auto;
+    background-color: #f4f4f4;
+}
+
+.texte ul {
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+}
+
+#contact a {
+    margin-top: 10em;
+}
+
+#presentation img {
+    width: 350px;              /* Largeur de l'image */
+    height: 350px;             /* Hauteur égale à la largeur pour un cercle parfait */
+    border-radius: 50%;        /* Rendre l'image circulaire */
+    object-fit: cover;         /* S'assurer que l'image couvre bien l'espace */
+    border: 5px solid #fff;    /* Ajouter une bordure blanche (facultatif) */
+    margin-bottom: 3em;
+}
+
+#presentation h2 {
+    font-size: 6vw;
+    text-decoration: underline;
+}
+
+#contact h2 {
+    font-size: 3vw;
+}

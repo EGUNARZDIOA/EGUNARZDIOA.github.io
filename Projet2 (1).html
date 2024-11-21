@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Kimberly Johnson - Projet Cybersecurity - Sécurisation d'un Site Web">
+    <title>Projet Web Full Stack - Développement de sites pour PME</title>
+    <link rel="stylesheet" href="css/Projet2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <nav>
+                <ul>
+                    <li><a href="#overview">Vue d'ensemble</a></li>
+                    <li><a href="#challenges">Défis</a></li>
+                    <li><a href="#solution">Solution</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1> Web Full Stack ; Développement de sites pour PME</h1>
+    <section id="viewport" class="section">
+        <div class="container">
+            <h2>Vue d'ensemble du projet</h2>
+            <p>Dans le cadre de ce projet, j'ai travaillé sur la sécurisation d'un site web fictif afin de le protéger contre les menaces courantes telles que les injections SQL, les attaques XSS et les attaques par force brute. L'objectif était de renforcer la sécurité du site tout en maintenant une expérience utilisateur fluide.</p>
+            <img src="https://le-site-francais.fr/wp-content/uploads/2024/03/securite-site-web.jpg.webp" alt="Sécurisation d'un site web" class="project-img">
+        </div>
+    </section>
+
+    <section id="challenges" class="section">
+        <div class="container">
+            <h2>Défis rencontrés</h2>
+            <ul>
+                <li><strong>Injection SQL :</strong> Prévenir les attaques permettant l'injection de requêtes malveillantes dans la base de données.</li>
+                <li><strong>Attaques XSS (Cross-Site Scripting) :</strong> Protéger le site contre l'injection de scripts malveillants dans les pages web vues par d'autres utilisateurs.</li>
+                <li><strong>Protection contre les attaques par force brute :</strong> Limiter les tentatives de connexion pour empêcher les attaques par force brute sur les pages de connexion.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="solution" class="section">
+        <div class="container">
+            <h2>Solution proposée</h2>
+            <p>Pour résoudre ces défis, j'ai mis en place plusieurs solutions :</p>
+            <ul>
+                <li><strong>Prévention des injections SQL :</strong> Utilisation de requêtes préparées et d'une validation stricte des entrées utilisateur pour éviter les attaques par injection.</li>
+                <li><strong>Protection contre XSS :</strong> Validation et assainissement des entrées utilisateur, ainsi que l'utilisation de Content Security Policy (CSP) pour limiter l'exécution de scripts malveillants.</li>
+                <li><strong>Protection contre les attaques par force brute :</strong> Implémentation de CAPTCHA sur les pages de connexion et limitation du nombre de tentatives de connexion par adresse IP.</li>
+            </ul>
+            <img src="https://www.smartyou.ch/wp-content/uploads/2024/07/plan-securite-informatique.jpg" alt="Solution de sécurité" class="project-img">
+        </div>
+    </section>
+
+    <section id="technologies" class="section">
+        <div class="container">
+            <h2>Technologies utilisées</h2>
+            <p>Pour ce projet, j'ai utilisé les technologies suivantes :</p>
+            <ul>
+                <li><strong>HTML5, CSS3 :</strong> Pour la structure et le design du site web.</li>
+                <li><strong>JavaScript :</strong> Pour les validations côté client et la gestion des interactions avec l'utilisateur.</li>
+                <li><strong>PHP/MySQL :</strong> Pour le backend et la gestion de la base de données.</li>
+                <li><strong>OWASP ZAP :</strong> Outil pour tester la sécurité du site web et identifier les vulnérabilités.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kimberly Johnson. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>

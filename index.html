@@ -1,11 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>hhehhehe</h1>
+
+    <!-- En-tête -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#presentation">A propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Présentation -->
+    <section id="presentation">
+        <h2>Kimberly Johnson</h2>
+        <img src="https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Famour.2Fcoaching-amoureux.2Fcest-quoi-belle-femme-temoignages-43206.2F14682625-1-fre-FR.2Fc-est-quoi-une-belle-femme-temoignages.2Ejpg/970x485/quality/80/crop-from/center/c-est-quoi-une-belle-femme-temoignages.jpeg" alt="ahhhh">
+        <h4>P R O F I L</h4><br>
+        <div class="texte">
+            <p>Passionnée de technologie et de design, avec une forte
+            capacité d’adaptation. Actuellement en freelance, je maîtrise
+            l’ensemble des technologies nécessaires pour concevoir et
+            développer des applications web complètes, de la conception
+            de l’interface au backend.
+            </p>
+        </div><br>
+        <h4>F O R M A T I O N S</h4><br>
+        <div class="texte">
+                <ul>
+                    <li>Licence en informatique (University of Texas, Austin).</li>
+                    <li>Certifications en JavaScript avancé, React.js et
+                        Node.js via des plateformes comme Coursera et
+                        FreeCodeCamp.</li>
+                </ul>
+        </div><br>
+        <h4>C O M P É T E N C E s   T E C H N I Q U E S</h4><br>
+        <div class="texte">
+            <ul>
+                <li>Frontend : HTML5, CSS3, JavaScript (ES6+), React.js, Vue.js.</li>
+                <li>Backend : Node.js, Express.js, Python (Django).</li>
+                <li>Base de données : MongoDB, MySQL, PostgreSQL.</li>
+                <li>Outils & Méthodes : Git, Docker, Figma, CI/CD,
+                    méthodologies Agile et Scrum.</li>
+                <li>Autres : APIs RESTful, tests unitaires (Jest,
+                    Mocha).</li>
+            </ul>
+        </div><br>
+        <h4>C O M P É T E N C E s  I N T E R P E R S O N N E L L E S</h4><br>
+        <div class="texte">
+                <ul>
+                    <li>Gestion de projet (capacité à
+                        dialoguer avec les clients pour
+                        comprendre leurs besoins).</li>
+                    <li>Résolution de problèmes complexes
+                        avec créativité.</li>
+                    <li>Forte autonomie et organisation
+                        (gestion du temps et respect des
+                        deadlines).</li>
+                </ul>
+        </div><br>
+        <h4>L A N G U E S</h4><br>
+        <div class="texte">
+                <ul>
+                    <li>Français ( Langue Maternelle )</li>
+                    <li>Anglais ( Bilingue )</li>
+                    <li>Chinois ( Courant )</li>
+                </ul>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="projet">
+                <h3><a href="Projet1.html" target="_blank">StylishWear</a></h3>
+                <p><i>StylishWear est un site innovant dédié à la mode.</i></p>
+            </div>
+            <div class="projet">
+                <h3><a href="Projet2.html" target="_blank">Web Full Stack</a></h3>
+                <p><i>Développement de sites pour PME</i></p>
+            </div>
+            <div class="projet">
+                <h3><a href="Projet3.html" target="_blank">Projet 3</a></h3>
+                <p><i>Description du projet 3.</i></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+
+        </div>
+        <a href="">Instagram</a>
+        <a href="">Github</a>
+        <a href="">Twitter</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kimberly Johnson. Tous droits réservés.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
+</footer>

@@ -1,0 +1,168 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hero Section with Image */
+.home {
+    text-align: center;
+    padding: 100px 20px;
+    color: black;
+    background-image: url("creer-marque-1024x683.jpg");
+
+}
+
+.home h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.home p {
+    font-size: 1.5rem;
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Header Styles */
+header {
+    background: #b37874;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #f1c40f; /* Highlight color on hover */
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    margin: 10px 0;
+}
+
+/* Projects Section */
+.portfolio {
+    padding: 50px 20px;
+    background: white;
+    text-align: center;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.project a:hover {
+    color: #2c3e50;
+}
+
+.project img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    border-color: #3498db;
+}
+
+.contact form button {
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+    background: #2c3e50; 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
