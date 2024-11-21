@@ -66,17 +66,19 @@ h1, h2 {
 
 #presentation p {
     font-size: 1.2rem;
-    margin-top: 20px;
+    margin: 5px 5px 5px 5px;
     text-align: justify;
 }
 
 .texte {
-    border: solid 1px #333;
     border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 60%;
     padding: 1em;
     margin: auto;
     background-color: #f4f4f4;
+    font-size: 1.2em;
+    text-align: justify;
 }
 
 .texte ul {
@@ -97,6 +99,7 @@ h1, h2 {
 #presentation h2 {
     font-size: 6vw;
     text-decoration: underline;
+    margin-bottom: 20px;
 }
 
 /* Section Projets */
@@ -212,8 +215,8 @@ footer {
 
     /* Image de présentation */
     #presentation img {
-        max-width: 250px;
-        max-height: 250px;
+        max-width: 200px;
+        max-height: 200px;
     }
 }
 
