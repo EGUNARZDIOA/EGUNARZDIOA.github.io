@@ -16,9 +16,7 @@ a {
     color: inherit;
 }
 
-p {
-    text-align: justify;
-}
+
 
 /* Mise en page */
 .container {
@@ -52,7 +50,7 @@ nav ul li a {
 /* Sections */
 section {
     padding: 60px 0;
-    text-align: justify;
+    text-align: center;
 }
 
 h1, h2 {
@@ -69,6 +67,36 @@ h1, h2 {
 #presentation p {
     font-size: 1.2rem;
     margin-top: 20px;
+    text-align: justify;
+}
+
+.texte {
+    border: solid 1px #333;
+    border-radius: 8px;
+    width: 60%;
+    padding: 1em;
+    margin: auto;
+    background-color: #f4f4f4;
+}
+
+.texte ul {
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+#presentation img {
+    width: 350px;              /* Largeur de l'image */
+    height: 350px;             /* Hauteur égale à la largeur pour un cercle parfait */
+    border-radius: 50%;        /* Rendre l'image circulaire */
+    object-fit: cover;         /* S'assurer que l'image couvre bien l'espace */
+    border: 5px solid #fff;    /* Ajouter une bordure blanche (facultatif) */
+    margin-bottom: 3em;
+}
+
+#presentation h2 {
+    font-size: 6vw;
+    text-decoration: underline;
 }
 
 /* Section Projets */
@@ -114,6 +142,16 @@ form button {
     border-radius: 4px;
     cursor: pointer;
 }
+
+#contact a {
+    margin-top: 10em;
+}
+
+#contact h2 {
+    font-size: 3vw;
+}
+
+
 
 /* Footer */
 footer {
@@ -181,39 +219,4 @@ footer {
 
 
 
-.texte {
-    border: solid 1px #333;
-    border-radius: 8px;
-    width: 60%;
-    padding: 1em;
-    margin: auto;
-    background-color: #f4f4f4;
-}
 
-.texte ul {
-    list-style-type: none;
-    font-family: Arial, sans-serif;
-    text-align: justify;
-}
-
-#contact a {
-    margin-top: 10em;
-}
-
-#presentation img {
-    width: 350px;              /* Largeur de l'image */
-    height: 350px;             /* Hauteur égale à la largeur pour un cercle parfait */
-    border-radius: 50%;        /* Rendre l'image circulaire */
-    object-fit: cover;         /* S'assurer que l'image couvre bien l'espace */
-    border: 5px solid #fff;    /* Ajouter une bordure blanche (facultatif) */
-    margin-bottom: 3em;
-}
-
-#presentation h2 {
-    font-size: 6vw;
-    text-decoration: underline;
-}
-
-#contact h2 {
-    font-size: 3vw;
-}
