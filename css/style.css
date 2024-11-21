@@ -52,7 +52,7 @@ nav ul li a {
 /* Sections */
 section {
     padding: 60px 0;
-    text-align: center;
+    text-align: justify;
 }
 
 h1, h2 {
@@ -168,7 +168,7 @@ footer {
         width: 80%;
         margin-left: 0;
         margin-right: 0;
-        text-align: center;
+        text-align: justify;
         background-color: #f4f4f4;
     }
 
@@ -193,6 +193,7 @@ footer {
 .texte ul {
     list-style-type: none;
     font-family: Arial, sans-serif;
+    text-align: justify;
 }
 
 #contact a {
