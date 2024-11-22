@@ -1,3 +1,7 @@
+main {
+    margin: 0 auto;
+}
+
 /* Global Styles */
 body {
     margin: 0;
@@ -12,7 +16,6 @@ body {
     padding: 100px 20px;
     color: black;
     background-image: url("creer-marque-1024x683.jpg");
-
 }
 
 .home h1 {
@@ -26,7 +29,7 @@ body {
 
 .hero-image {
     width: 100%;
-    max-height: 400px;
+    max-height: 600px;
     object-fit: cover;
     margin-top: 20px;
     border-radius: 10px;
@@ -65,6 +68,9 @@ header nav ul li a:hover {
     padding: 50px 20px;
     background: #f9f9f9;
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 .about ul {
@@ -74,6 +80,10 @@ header nav ul li a:hover {
 
 .about ul li {
     margin: 10px 0;
+}
+
+.about p {
+    text-align: justify;
 }
 
 /* Projects Section */

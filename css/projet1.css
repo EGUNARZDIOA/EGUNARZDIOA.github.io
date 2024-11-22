@@ -68,6 +68,8 @@ header nav ul li a:hover {
     padding: 50px 20px;
     background: #f9f9f9;
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .about ul {
@@ -77,6 +79,10 @@ header nav ul li a:hover {
 
 .about ul li {
     margin: 10px 0;
+}
+
+.about p {
+    text-align: justify;
 }
 
 /* Projects Section */

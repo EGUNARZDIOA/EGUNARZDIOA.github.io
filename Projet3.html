@@ -1,12 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opodo</title>
+    <title>Portfolio - Kimberly Johnson</title>
     <link rel="stylesheet" href="css/projet3.css">
 </head>
 <body>
-    <a href="https://www.opodo.fr/?msockid=13441d50919864571911086b90826524"></a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#portfolio">Projets</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+
+            </ul> 
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section d'accueil -->
+        <div id="home" class="home">
+            <h1>Kimberly Johnson</h1>
+            <p>Développeuse Full Stack - Création d'application web moderne de collaboration de projets.</p>
+            <img src="assets/Capture d'écran 2024-11-22 075657.png" alt="Banner image" class="hero-image">
+        </div>
+
+        <!-- Section À propos -->
+        <section id="about" class="about">
+            <h2>À propos du projet </h2>
+            <p><strong>Trello</strong> est une application web de gestion de projets basée sur une interface Kanban qui permet aux utilisateurs d’organiser des tâches à travers des tableaux, des listes et des cartes. Elle permet de suivre les progrès, d’assigner des tâches, de définir des échéances et de collaborer avec une équipe en temps réel. L’application a une interface simple et intuitive, idéale pour des équipes de toutes tailles, depuis les petites startups jusqu’aux grandes entreprises.</p>            
+            <ul>
+                <li><strong>Langages :</strong> HTML, CSS, JavaScript, TypeScript</li>
+                <li><strong>Frameworks :</strong> React.js, Node.js, Express.js</li>
+                <li><strong>Base de données :</strong> MongoDB</li>
+                <li><strong>Outils de gestion de versions :</strong> Git, GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="portfolio" class="portfolio">
+            <h2>Ma Réalisation</h2>
+            <div class="project">
+                <h3>Trello</h3>
+                <p>Site e-commerce créé avec React.js et intégration de Stripe pour les paiements.</p>
+                <a href="https://trello.com/fr" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+                <!-- Ajout d'une image de produit -->
+                <img src="assets/idea-6900632_640.webp" alt="StylishWear Product" class="project-image">
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Kimberly Johnson. Tous droits réservés.</p>
+            </div>
+        </footer>
 </body>
 </html>
